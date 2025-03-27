@@ -151,7 +151,7 @@ function getNextWordSuggestions() {
             document.getElementsByClassName("genloader").hidden = true;
         }
     };
-    xhttp.open("POST", "http://localhost:8000/suggest_next_word", true);
+    xhttp.open("POST", "https://conversational-backend.onrender.com/suggest_next_word", true);
     xhttp.setRequestHeader("Content-Type", "application/json");
     // allow cros origin requests    
     xhttp.setRequestHeader("Access-Control-Allow-Origin", "*");    
@@ -185,7 +185,7 @@ function getResponseSuggestions() {
             qa_button.innerHTML = suggestions['qa'];
         }
     };
-    xhttp.open("POST", "http://localhost:8000/suggest_from_response", true);
+    xhttp.open("POST", "https://conversational-backend.onrender.com/suggest_from_response", true);
     xhttp.setRequestHeader("Content-Type", "application/json");
     // allow cros origin requests
     xhttp.setRequestHeader("Access-Control-Allow-Origin", "*");    
