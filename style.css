@@ -1,0 +1,156 @@
+.button {
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;  
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: .4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+.button1:hover {
+  background-color: #008CBA;
+  color: white;
+}
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+.button3 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+.button3:hover {
+  background-color: #008CBA;
+  color: white;
+}
+.button4 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+.button4:hover {
+  background-color: #008CBA;
+  color: white;
+}
+.button5 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #838783;
+}
+.button5:hover {
+  background-color: #838783;
+  color: white;
+}
+.button6 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #5d339f;
+}
+.button6:hover {
+  background-color: #5d339f;
+  color: white;
+}
+.button7 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #c67110;
+}
+.button7:hover {
+  background-color: #c67110;
+  color: white;
+}
+.button8 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #282a2b;
+}
+.button8:hover {
+  background-color: #282a2b;
+  color: white;
+}
+.p-2 {
+  height:24rem;
+  background-color: #fff;
+  border-radius: 0.5rem; 
+  overflow:scroll
+}
+
+.me {
+  color: white;
+  max-width: 255px;
+  word-wrap: break-word;
+  margin-bottom: 12px;
+  line-height: 24px;
+  position: relative;
+	padding: 10px 20px;
+  border-radius: 25px;
+  background-color: #0b93f6;
+  
+}
+
+.them {
+  color: black;
+  max-width: 255px;
+  word-wrap: break-word;
+  margin-bottom: 12px;
+  line-height: 24px;
+  left: 20%;
+  position: relative;
+  text-align: left;
+  padding: 10px 20px;
+  border-radius: 25px;
+  background-color: #e5e5ea;
+  
+}
+
+.startbutton {
+	width: 35px;
+	height: 35px;
+	font-size: 0;
+  background-color: darkred;	border: 0;
+	border-radius: 35px;
+	margin: 18px;
+	outline: none;
+}
+
+.stoprec{
+  width: 35px;
+	height: 35px;
+	font-size: 0;
+	background-color: red;
+	border: 0;
+	border-radius: 35px;
+	margin: 18px;
+	outline: none;
+	animation-name: pulse;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes pulse{
+	0%{
+		box-shadow: 0px 0px 5px 0px rgba(173,0,0,.3);
+	}
+	65%{
+		box-shadow: 0px 0px 5px 13px rgba(173,0,0,.3);
+	}
+	90%{
+		box-shadow: 0px 0px 5px 13px rgba(173,0,0,0);
+	}
+}
